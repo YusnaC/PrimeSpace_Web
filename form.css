@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* ==================== HEADER ==================== */
+header {
+  position: fixed;
+  z-index: 1500;
+  padding: 1em 4em;
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0 0 10px #d6d4d4;
+}
+.headWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headWrap img {
+  width: 10em;
+  cursor: pointer;
+}
+.linkNav a {
+  text-decoration: none;
+  margin-right: 4em;
+  color: black;
+  cursor: pointer;
+}
+.linkNav a:hover {
+  color: #149fa9;
+  transition: all 0.2s ease-in-out;
+}
+.linkNav a.active {
+  color: #149fa9;
+}
+.btn-uniq {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  background-color: #e0e7ff;
+  color: black;
+  cursor: pointer;
+}
+.btn-uniq:active {
+  color: darkgray;
+  background-color: #dfdfdf3f;
+  transform: scale(0.95);
+}
+.btn {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  margin-right: 0.5em;
+  background-color: #1c2a58;
+  color: white;
+  cursor: pointer;
+}
+.btn:active {
+  color: darkgray;
+  background-color: #dfdfdf3f;
+  transform: scale(0.95);
+}
+/* ==================== HERO ==================== */
+#hero {
+  padding: 9em 5em 3em 5em;
+}
+.heroBackground {
+  background-color: white;
+  padding-bottom: 4em;
+}
+.wrap h1 {
+  font-weight: 600;
+}
+.text-remind {
+  margin-top: 0.5em;
+}
+.hero-head {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.bxs-file {
+  font-size: 4rem;
+  color: #1c2a58;
+  margin-right: 0.2em;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0)
+  );
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+/* ==================== FORM ==================== */
+form {
+  position: relative;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+.input-field input,
+.input-field select,
+.input-field textarea {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 0.8em 1em;
+  width: 100%;
+  margin-top: 1em;
+  resize: none;
+  background-color: #f5f8fa;
+  cursor: pointer;
+}
+#keperluanPeminjaman {
+  width: 50%;
+  height: 15em;
+}
+.input-field.full-width {
+  grid-column: span 3;
+}
+.fields {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2em;
+  gap: 0.5em;
+}
+.alert-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  cursor: default;
+}
+.bxs-error-alt {
+  color: #de2828;
+  margin-right: 0.5em;
+}
+.alert-text {
+  color: rgb(100, 100, 100);
+  margin-bottom: 1em;
+  cursor: default;
+}
+#password {
+  width: 20%;
+}
+.button-container {
+  margin-top: 3em;
+}
+.submit-btn {
+  background-color: #1c2a58;
+  color: white;
+  font-weight: 600;
+  padding: 1.4em 2em;
+  border: none;
+  border-radius: 0.5em;
+  margin-right: 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.submit-btn:active {
+  color: darkgray;
+  background-color: #dfdfdf3f;
+  transform: scale(0.95);
+}
+.reset-btn {
+  background-color: #d2d4de;
+  color: black;
+  font-weight: 600;
+  padding: 1.4em 4em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.reset-btn:active {
+  color: darkgray;
+  background-color: #dfdfdf3f;
+  transform: scale(0.95);
+}
+/* .popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.popup-content-submit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 2em 5em;
+  border-radius: 0.5em;
+  text-align: center;
+}
+.popup-content-submit h3 {
+  margin-top: 0.5em;
+  color: #1c2a58;
+}
+.popup-content-submit p {
+  margin-top: 0.5em;
+  color: #64748b;
+}
+.bxs-check-circle {
+  font-size: 4rem;
+  color: #00ae1c;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+} */
+.footer-con {
+  width: 100%;
+  background-color: #1c2a58;
+  color: white;
+  padding: 1em 5em;
+  bottom: 0;
+  cursor: default;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer h5 {
+  margin-right: 2em;
+  font-weight: 600;
+}
+.footer p {
+  font-weight: bold;
+  font-size: small;
+  font-weight: 600;
+}
